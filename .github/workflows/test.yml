@@ -18,9 +18,9 @@ jobs:
           - ubuntu-latest
           - macos-latest
         python-version: 
-          - '3.9'
           - '3.10'
           - '3.11'
+          - '3.12'
       fail-fast: false
     runs-on: ${{ matrix.runs-on }}
     name: Python ${{ matrix.python-version }} (${{ matrix.runs-on }})
